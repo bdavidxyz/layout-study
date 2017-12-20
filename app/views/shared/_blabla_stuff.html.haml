@@ -1,0 +1,16 @@
+.c-truc
+
+= yield
+
+%ul
+  %li
+    = yield(:first)
+  %li deux
+  %li trois
+
+%h3 
+  heu un autre niveau
+  %article
+    blabla
+    = yield(:second)
+    blublu

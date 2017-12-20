@@ -1,0 +1,10 @@
+%h1 Welcome#index
+%p Find me in app/views/welcome/index.html.haml
+
+= render layout: 'shared/blabla_stuff' do
+  - content_for :first do
+    .alert-success
+      block for content one
+  - content_for :second do
+    .alert-success
+      block for content second
